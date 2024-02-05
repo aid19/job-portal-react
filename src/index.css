@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,7 +23,8 @@ li:hover::before {
   height: 4px;
   width: 100%;
   background: #2a68ff;
-  right: 0;
+  right:0;
+  bottom: -10px;
   color: #2a68ff;
 }
 
