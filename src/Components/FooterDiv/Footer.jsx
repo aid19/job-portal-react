@@ -1,10 +1,29 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div className="footer p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-[8] grid grid-cols-5 m-auto items-center justify-center">
+      <div>
+        <div className="logoDiv">
+          <h1 className="logo text-[25px] text-white pb-[1.5rem]">
+            <strong>Job</strong>Search
+          </h1>
+        </div>
+        <p className="text-white pb-[13px] opacity-70 leading-7 ">
+          We always make our seekers and companies find the best jobs and employers find the best candidates.
+        </p>
+      </div>
+      <div className="grid">
+        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+          Company
+        </span>
+        <div className="grid gap-3">
+          <li className="text-white opacity-[.7] hover:opacity-[1]">About Us</li>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
