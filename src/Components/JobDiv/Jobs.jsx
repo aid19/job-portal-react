@@ -83,8 +83,6 @@ const Data = [
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, id.",
     company:'Web Tech Agency'
   },
-  
-
 
 ]
 
