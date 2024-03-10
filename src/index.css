@@ -33,7 +33,7 @@ li:hover::before {
 }
 
 .card {
-  background: url(/src/Assets/cover.jpg) ;
+  background: url(/src/Assets/image123.webp) ;
   background-repeat: no-repeat;
   background-size: cover; /* Cover the entire width of the window */
 
