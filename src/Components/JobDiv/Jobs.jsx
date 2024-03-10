@@ -93,11 +93,11 @@ const Jobs = () => {
           return (
             <div
               key={id}
-              className="group group/item singleJob w-[280px] p-[20px] bg-white rounded [10px] hover:bg-hoverColor shadow-lg 
+              className="group group/item singleJob w-[280px] p-[20px] bg-white rounded [10px] shadow-lg 
               shadow-greyIsh-400/700 hover:shadow-lg"
             >
               <span className="flex flex-wrap justify-between items-center gap-4">
-                <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">
+                <h1 className="text-[16px] font-semibold text-textColor" >
                   {title}
                 </h1>
                 <span className="flex items-center text-[#ccc] gap-1">
@@ -105,12 +105,12 @@ const Jobs = () => {
                   {time}
                 </span>
                 <h6 className="text-[#ccc]">{location}</h6>
-                <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
+                <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] ">
                   {desc}
                 </p>
                 <div className="company flex items-center gap-2">
                   <img src={image} alt="" className="w-[10%]" />
-                  <span className="text-[14px] py-[1rem] block group-hover:text-white">
+                  <span className="text-[14px] py-[1rem] block ">
                     {company}
                   </span>
                 </div>
