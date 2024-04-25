@@ -39,3 +39,37 @@ li:hover::before {
 
 }
 
+@media screen and (max-width: 500px) {
+    .searchDiv {
+      width: 100%;
+      padding: 2rem;
+    }
+    .firstDiv {
+      flex-direction: column;
+      width: 100%;
+    }
+    .firstDiv>div {
+      gap:0
+    }
+    .secDiv {
+      flex-direction: column;
+      width: 100%;
+      align-items: start;
+    }
+    .singleGrid {
+      flex-direction: column;
+      width: 100%;
+    }
+    .cardDiv {
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+
+    }
+}
+
