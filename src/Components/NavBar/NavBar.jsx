@@ -5,6 +5,7 @@ import { FiSearch } from "react-icons/fi";
 import { PiChatCircleBold } from "react-icons/pi";
 import { IoPricetagsOutline } from "react-icons/io5";
 
+// eslint-disable-next-line no-unused-vars
 const nav = [
   {
     title: "Jobs",
@@ -31,11 +32,7 @@ const nav = [
     href: "#",
     Icon: PiChatCircleBold,
   },
-  {
-    title: "Login",
-    href: "#",
-    Icon: PiChatCircleBold,
-  },
+
 ];
 
 const NavBar = () => {
